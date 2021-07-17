@@ -1,0 +1,128 @@
+.app-container{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://assets.ccbp.in/frontend/react-js/coffee-planner-bg.png");
+    background-size: cover;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 300px;
+}
+
+@media screen and (min-width: 768px){
+    .header-container{
+        justify-content: flex-end;
+        padding-right: 45px;
+    }
+}
+
+.header-content-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+.header-title{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 768px){
+    .header-title{
+        font-size: 20px;
+    }
+}
+
+.header-description{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+@media screen and (min-width: 768px){
+    .header-description{
+        font-size: 18px;
+    }
+}
+
+.body-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center;
+}
+
+.create-button{
+    background-color: #0e8680;
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 15px;
+    font-weight: 400;
+    width: 150px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.summary-section{
+    background-color: #2e353d;
+    border-radius: 12px;
+    width: 100%;
+}
+
+@media screen and (min-width: 7687px){
+    .summary-section{
+        width: 80%;
+    }
+}
+
+.questions-container{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.summary-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e353d;
+    border-radius: 12px;
+    width: 100%;
+    padding: 25px;
+    margin-top: 15px;
+}
+
+@media screen and (min-width: 768px){
+    .summary-container{
+        width: 80%;
+    }
+}
+
+.summary-description{
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.selected-summary{
+    color: #0e8680;
+}

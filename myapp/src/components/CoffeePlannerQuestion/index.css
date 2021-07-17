@@ -1,0 +1,37 @@
+.each-question-container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px){
+    .each-question-container{
+        margin-bottom: 15px;
+    }
+}
+
+.question-title{
+    color: #1e293b;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 600;
+}
+
+@media screen and (min-width: 768px){
+    .question-title{
+        font-size: 20px;
+    }
+}
+
+.option-container{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+@media screen and (min-width: 768px){
+    .option-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
